@@ -4,7 +4,7 @@ import java.io.File
 
 fun main(args : Array<String>)
 {
-    val input = File("src/day1/input.txt").absoluteFile.readLines()
+    val input = File("../input.txt").absoluteFile.readLines()
 
     part1(input)
     part2(input)
